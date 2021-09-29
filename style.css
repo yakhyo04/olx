@@ -264,3 +264,12 @@
     border-radius: 50%;
     padding: 15px;
 }
+.github{
+    width: 50px;
+    height: 50px;
+}
+.about__span{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(240, 235, 235);
+}
