@@ -42,7 +42,6 @@ function renderDatas(datas, element){
         let day = date.getDate();
         let year = date.getFullYear();
 
-
         newLi.setAttribute('class', 'datas__card');
         newTime.setAttribute('datetime', `${day}.${month}.${year}`);
         newTime.textContent =  `${day}.${month}.${year}`;
