@@ -142,3 +142,14 @@ elForm.addEventListener('submit', (e) =>{
     
     renderDatas(selectArray, elList)
 })
+
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("love-icon").style.marginLeft = "300px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("love-icon").style.marginLeft= "0";
+}  

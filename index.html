@@ -24,7 +24,12 @@
                         <ul class="main__div--item">Недвижимость</ul>
                         <ul class="main__div--item">Квартиры</ul>
                         
-                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img class="save-img"  src="./img/serdsa.png" alt="love-icon"></span>
+                      
+                        <div class="save-data" id="love-icon">
+                   
+                            <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img class="save-img"  src="./img/serdsa.png" alt="love-icon"></span>
+                  
+                          </div>
                     </ul>
                         
                 </div>
@@ -76,10 +81,16 @@
                 </ul>
                 <br>
             </div>
-        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
             <ul class="home__card"></ul>
         </div>
     </section>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul id="canvas__list" >
+           
+        </ul>
+      </div>
     
     <script src="./js/data.js"></script>
     <!-- <script src="./js/util.js"></script> -->
