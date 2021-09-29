@@ -245,3 +245,22 @@
     font-size: 36px;
     margin-left: 0px;
   }
+
+
+.about{
+    background-color: grey;
+}
+.about__div{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.about__nav{
+    padding-left: 100px;
+}
+.about__img{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+}
