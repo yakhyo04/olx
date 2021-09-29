@@ -248,7 +248,7 @@
 
 
 .about{
-    background-color: grey;
+    background-color: #E7E9E9;
 }
 .about__div{
     padding-top: 100px;
@@ -273,7 +273,7 @@
 .about__span{
     font-size: 40px;
     font-weight: bold;
-    color: rgb(240, 235, 235);
+    color: rgb(119, 118, 118);
 }
 .text{
     font-size: 30px;
