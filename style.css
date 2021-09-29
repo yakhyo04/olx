@@ -254,6 +254,7 @@
     padding-top: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .about__nav{
     padding-left: 100px;
@@ -276,4 +277,24 @@
 }
 .text{
     font-size: 30px;
+}
+
+.menu{
+    padding-top: 150px;
+}
+.menu__header{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.menu__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu__list--item{
+    width: 200px;
+}
+.menu__list--img{
+    width: 100%;
 }
